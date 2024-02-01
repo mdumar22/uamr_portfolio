@@ -129,7 +129,8 @@ li{
         flex-direction: column;
         top: 0;
         right:-100%;
-        background-color: yellow;
+        background-color: black;
+        opacity: 0.9;
         width: 300px;
         height: 100vh;
         z-index: 99;
@@ -151,16 +152,27 @@ li{
     
    
     
-/*  .nav_bar  li a{
-    color: #000;
+ .nav_bar  li a{
+    color:  #FFE7C1;
     text-transform: capitalize;
     font-weight: 800;
-    background-color: #FFE7C1;
-    padding: 12px 20px;
-    border-radius: 8px;
-} */
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+    margin-bottom: 15px;   
 
-.nav_bar .open_menu {
+} 
+
+
+.nav_bar  li a:hover{
+    color:#fff ;
+}
+
+.toggel_closed {
+    margin-bottom: 20px;
+}
+
+ .open_menu {
     right: 0%;
 }
 
@@ -703,7 +715,9 @@ transform: rotateY(360deg);
         font-weight: 700;
         margin: 0 auto;
     }
-
+    .open_menu {
+        right: -6%;
+    }
 
 .banner_content_one span {
     font-size: 20px;
@@ -798,6 +812,9 @@ transform: rotateY(360deg);
 
     .contact_list {
         padding: 20px 0  15px 0;
+    }
+    .open_menu {
+        right: -20%;
     }
     
 .info_two{
