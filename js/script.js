@@ -7,6 +7,13 @@ jQuery(document).ready(function($){
         })
         
 AOS.init();
+
+new Typed('#typed',{
+    strings : ['Developer','Md Umar'],
+    typeSpeed : 40,
+    delaySpeed : 90,
+    loop : true
+  });
     
 })
 
