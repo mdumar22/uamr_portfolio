@@ -18,13 +18,3 @@ new Typed('#typed',{
 })
 
 
-
-/* 
-jQuery(document).ready(function($){
-    $('.toggel_btn a').click(function(){
-        $('.nav_bar').addClass('open_menu');
-    })
-     $('.close_btn').click(function(){
-        $('.nav_bar').removeClass('open_menu');
-    })
-}) */
