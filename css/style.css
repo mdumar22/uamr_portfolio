@@ -682,9 +682,15 @@ height: 300px;
     z-index: 99;
 }
 
+.skill_pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .skill_pic svg{
-    width: 85px;
-    height: 85px;
+    width: 200px;
+    height: 200px;
     fill: #FFE7C1;
 }
 
