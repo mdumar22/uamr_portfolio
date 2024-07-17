@@ -18,3 +18,4 @@ new Typed('#typed',{
 })
 
 
+  
